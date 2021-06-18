@@ -28,5 +28,5 @@ git init
 ### 返回结果
 
 ```text
-Initialized empty Git repository in /Users/abc/git_hug/.git/
+Initialized empty Git repository in /file/to/path/git_hug/.git/
 ```
