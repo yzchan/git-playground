@@ -3,12 +3,6 @@
 ### 问题描述：
 
 ```text
-********************************************************************************
-*                                    Githug                                    *
-********************************************************************************
-No githug directory found, do you wish to create one? [yn]  y
-Welcome to Githug!
-
 Name: init
 Level: 1
 Difficulty: *
