@@ -1,4 +1,4 @@
-# git commit amend
+# git commit in future
 
 ### 问题描述：
 
