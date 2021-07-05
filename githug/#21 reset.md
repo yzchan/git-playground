@@ -3,17 +3,17 @@
 ### 问题描述：
 
 ```text
-Name: reset_soft
-Level: 22
+Name: reset
+Level: 21
 Difficulty: **
 
-You committed too soon. Now you want to undo the last commit, while keeping the index.
+There are two files to be committed.  The goal was to add each file as a separate commit, however both were added by accident.  Unstage the file `to_commit_second.rb` using the reset command (don't commit anything).
 ```
 
 ### git命令
 
 ```shell
-git reset --soft HEAD~1
+git reset HEAD to_commit_second.rb
 ```
 
 ### 关卡解析

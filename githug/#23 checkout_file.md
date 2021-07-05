@@ -13,7 +13,7 @@ Commit your changes with the future date (e.g. tomorrow).
 ### git命令
 
 ```shell
- git checkout config.rb
+git checkout config.rb
 ```
 
 ### 关卡解析

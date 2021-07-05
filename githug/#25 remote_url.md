@@ -1,4 +1,4 @@
-# git commit amend
+# git remote
 
 ### 问题描述：
 
@@ -14,6 +14,7 @@ The remote repositories have a url associated to them.  Please enter the url of 
 
 ```shell
 git remote -v
+https://github.com/githug/not_a_repo 
 ```
 
 ### 关卡解析
