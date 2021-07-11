@@ -14,7 +14,8 @@ All commits have been pushed, so you can't change existing history.
 ### git命令
 
 ```shell
-git revert 563832f
+git log --oneline //查看错误分支名
+git revert 563832f // 选择刚才看到的分支名
 ```
 
 ### 关卡解析

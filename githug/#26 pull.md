@@ -18,4 +18,4 @@ git pull origin master
 
 ### 关卡解析
 
-> 略
+> 国内有时候无法拉取，需要科学上网。
