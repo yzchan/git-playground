@@ -18,4 +18,4 @@ git clone https://github.com/Gazler/cloneme my_cloned_repo
 
 ### 关卡解析
 
-> clone远端仓库到本地目录
+> clone远端仓库到本地指定名称的目录

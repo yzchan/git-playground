@@ -59,8 +59,8 @@ git config --local user.email "username@host.com"
 
 配置git默认的编辑器
 ```shell
-git config --global core.editor vim // 编辑器之神
-git config --global core.editor emacs //神的编辑器
+git config --global core.editor vim
+git config --global core.editor emacs
 ```
 
 
