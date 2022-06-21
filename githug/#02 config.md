@@ -13,17 +13,17 @@ Set up your git name and email, this is important so that your commits can be id
 ### git命令
 
 ```shell
-git config --local user.name ch
-git config --local user.email ch@qq.com
+git config --local user.name username
+git config --local user.email username@host.com
 ```
 
 ### 返回结果
 
 ```text
-What is your name? ch
-What is your email? ch@qq.com
-Your config has the following name: ch
-Your config has the following email: ch@qq.com
+What is your name? username
+What is your email? username@host.com
+Your config has the following name: username
+Your config has the following email: username@host.com
 Congratulations, you have solved the level!
 ```
 
@@ -37,18 +37,19 @@ Congratulations, you have solved the level!
         ...
         ...
 [user]
-        name = ch
-        email = ch@qq.com
+        name = username
+        email = username@host.com
 ```
 
 查看全部配置，
 ```shell
-git config --system --list // 系统级设置
-git config --global --list // 用户级设置
-git config --local --list  // 项目级设置 
+git config --system --list // 系统级设置 读取 `/etc/gitconfig` 文件，对系统中所有用户生效
+git config --global --list // 用户级设置 读取 `~/.gitconfig` 文件
+git config --local --list  // 项目级设置 读取项目根目录下 `.git/config` 文件
 git config --list
 ```
-默认是local级。local>global>system。
+如果想要查看配置，可以使用git config指令。config 配置有system（系统级别）、global（用户级别）、和local（当前仓库）三个。设置先从system->global->local，底层配置会覆盖顶层配置 分别使用--system/global/local 可以定位到配置文件。
+
 
 ```shell
 git config --local user.name "username"
@@ -56,6 +57,7 @@ git config --local user.email "username@host.com"
 ```
 在mac上 全局配置的路径为`~/.gitconfig`，项目配置的目录为`ProjectDir/.git/config`
 
+### 其他设置
 
 配置git默认的编辑器
 ```shell
