@@ -21,7 +21,7 @@ git add README
 
 > git add <file_name> 将指定文件添加到暂存区。正确理解Git工作区域：
 >
-> - 工作目录（Working Directory）
+> - 工作区(Working Directory)
 > - 暂存区(Stage/Index)
 > - 资源库(Repository或Git Directory)
 > - git仓库(Remote Directory)

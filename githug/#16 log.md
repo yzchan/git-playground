@@ -15,6 +15,7 @@ You will be asked for the hash of most recent commit.  You will need to investig
 ```shell
 git log
 What is the hash of the most recent commit? 77222c0e94240897a3ae4631b0752617d36bab62
+git log --oneline 等价于 git log --abbrev-commit --pretty=one # 单行查看
 ```
 
 ### 关卡解析

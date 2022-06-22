@@ -18,4 +18,4 @@ git rm --cached deleteme.rb
 
 ### 关卡解析
 
-> 
+> git rm --cached删除暂存区和版本库的文件，但保留了工作区的文件
