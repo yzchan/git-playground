@@ -14,9 +14,9 @@ Someone has put a password inside the file `config.rb` find out who it was.
 
 ```shell
 git blame config.rb
-Who made the commit with the password? Spider Man
+# Who made the commit with the password? Spider Man
 ```
 
 ### 关卡解析
 
-> 略
+> 一般IDE都会集成该功能，使用IDE查看每一行的修改着会很方便。

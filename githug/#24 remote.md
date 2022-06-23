@@ -13,8 +13,10 @@ This project has a remote repository.  Identify it.
 ### git命令
 
 ```shell
-$git remote
-my_remote_repo
+git remote
+git remote -v
+# my_remote_repo
+git remote show my_remote_repo
 ```
 
 ### 关卡解析

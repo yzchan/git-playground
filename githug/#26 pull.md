@@ -14,6 +14,7 @@ You need to pull changes from your origin repository.
 
 ```shell
 git pull origin master
+git remote show origin # 查看远端信息
 ```
 
 ### 关卡解析

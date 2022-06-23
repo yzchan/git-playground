@@ -14,7 +14,9 @@ The remote repositories have a url associated to them.  Please enter the url of 
 
 ```shell
 git remote -v
-https://github.com/githug/not_a_repo 
+https://github.com/githug/not_a_repo
+
+git remote show my_remote_repo
 ```
 
 ### 关卡解析

@@ -3,11 +3,11 @@
 ### 问题描述：
 
 ```text
-Name: commit_in_future
-Level: 20
-Difficulty: **
+Name: checkout_file
+Level: 23
+Difficulty: ***
 
-Commit your changes with the future date (e.g. tomorrow).
+A file has been modified, but you don't want to keep the modification.  Checkout the `config.rb` file from the last commit.
 ```
 
 ### git命令
