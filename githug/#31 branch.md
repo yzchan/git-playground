@@ -14,6 +14,7 @@ You want to work on a piece of code that has the potential to break things, crea
 
 ```shell
 git branch test_code
+git checkout -b test_code # 创建并切换到新分支
 ```
 
 ### 关卡解析

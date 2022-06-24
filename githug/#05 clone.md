@@ -13,7 +13,7 @@ Clone the repository at https://github.com/Gazler/cloneme.
 ### git命令
 
 ```shell
-git clone https://github.com/Gazler/cloneme 
+git clone https://github.com/Gazler/cloneme
 ```
 
 ### 关卡解析

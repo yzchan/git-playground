@@ -13,9 +13,11 @@ You have created too many branches for your project. There is an old branch in y
 ### git命令
 
 ```shell
-git branch -d delete_me
+git branch -d delete_me  # 删除一个名字为branchName的分支。如果该分支有提交未进行合并，则会删除失败。
+git branch -D delete_me  # 强制删除一个名字为branchName 的分支。如果该分支有提交未进行合并，也会删除成功。
+
 ```
 
 ### 关卡解析
 
-> 基于当前commit（也就是HEAD）前面的commit创建一个test_branch的分支。
+> 删除分支

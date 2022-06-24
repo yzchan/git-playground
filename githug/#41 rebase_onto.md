@@ -14,7 +14,7 @@ You have created your branch from `wrong_branch` and already made some commits, 
 
 ```shell
 git rebase -i wrong_branch~1
-// 然后将第一行(即有错误的那个commit)前面的pick改成drop 然后保存即可
+# 然后将第一行(即有错误的那个commit)前面的pick改成drop 然后保存即可
 ```
 
 ### 关卡解析

@@ -14,7 +14,7 @@ The `README` file has been added to your staging area, now commit it.
 ### git命令
 
 ```shell
-git add README
+git commit -m"msg"
 ```
 
 ### 关卡解析
