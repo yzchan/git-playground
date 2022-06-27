@@ -19,4 +19,4 @@ git commit -m"."
 
 ### 关卡解析
 
-> 
+> 当我们从其他分支merge到主分支时，通常会带来大量的commit，如果我们不希望一个Merge Request产生这么多的commit，可以在merge时带上--squash选项。

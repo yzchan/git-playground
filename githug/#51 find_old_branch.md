@@ -19,4 +19,4 @@ git checkout solve_world_hunger
 
 ### 关卡解析
 
-> 
+> git reflog可以查看所有分支的提交记录。

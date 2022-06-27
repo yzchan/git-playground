@@ -13,7 +13,8 @@ Your project's deadline approaches, you should evaluate how many TODOs are left 
 ### git命令
 
 ```shell
-How many items are there in your todolist? 4
+git grep TODO ./
+# How many items are there in your todolist? 4
 ```
 
 ### 关卡解析

@@ -19,4 +19,4 @@ git rebase -i HEAD~3
 
 ### 关卡解析
 
-> 依旧是git rebase -i HEAD~3 之后调整顺序保存即可
+> 对历史commit节点进行排序，依然使用 `git rebase -i` 这个命令可以实现
